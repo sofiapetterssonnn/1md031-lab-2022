@@ -1,130 +1,17 @@
-<!DOCTYPE HTML>
-
-<html lang="en">
-    <head>
-       <title>Hamburger Online</title>
-       <meta charset="utf-8"/>
-
-       <!--<link rel="stylesheet" type="text/css" href="reset.css">-->
-       <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-
-        <header> 
-            <img src="https://www.multivu.com/players/English/8246355-chilis-boss-burger/image/ChilisHero_1526904726393-null-HR.jpg" style = "width:100%; height: 350px; opacity: 0.5;">
-            <h1 style="position: absolute; right: 240px; margin-top: -200px; font-size: 40pt;">WELCOME TO PETTERSSON'S BURGERS</h1>
-        </header>
-        
-    <section id = selectBurger>  
-        <h1>Select burger</h1>
-            <p> This is were you execute burger selection</p>
-        
-        <div class="wrapper">
-
-        <div>  
-            <div class="box a"> 
-            <h3 >Soffis Burger</h3>  
-                <img src="https://cdn.cnn.com/cnnnext/dam/assets/220428140436-04-classic-american-hamburgers-full-169.jpg" alt="Hamburgare" 
-                width="260"
-                height="160"
-                />
-                <ul>
-                    <section class= "ingredients">
-                    <li>650 kCal</li>
-                    <li>Contains <span id = "ingredient"> lactose </span></li>
-                    <li>Contains <span id = "ingredient"> gluten </span></li>
-                    </section>
-                </ul>
-            </div> 
-        </div>
-
-         
-        <div> 
-            <div class="box b">
-                <h3>Beast Burger</h3>
-                <img src="https://www.tastingtable.com/img/gallery/heres-how-hamburgers-got-their-name/intro-1653066580.jpg" alt="hamburgare"
-                width="260"
-                height="160" 
-                />
-                <ul>
-                    <section class = "ingredients">
-                    <li>700 kCal</li>
-                    <li>Contains <span id = "ingredient"> gluten</span> </li>
-                    <li>Contains <span id = "ingredient"> egg</span> </li>
-                    </section>
-                </ul>
-            </div>
-        </div>
-            
-            
-        <div> 
-            <div class="box c">
-                <h3>Cheese Burger</h3>
-                <img src="https://www.tastingtable.com/img/gallery/steakburger-vs-hamburger-whats-the-biggest-difference/l-intro-1657643502.jpg" alt="hamburgare"
-                width="260"
-                height="160" />
-                <ul>
-                    <section class= "ingredients"> 
-                    <li>600 kCal</li>
-                    <li>Contains <span id = "ingredient"> lactose </span></li>
-                    <li>Contains <span id = "ingredient"> gluten </span></li>
-                    </section>
-                </ul>
-            </div>
-        </div>          
-    </div>
-    </section>
-    
-    <section id = customerInfo> 
-        <h2>Customerinformation</h2>
-        <p>This is where you provide necessary information</p>  
-        <h3>Deliveryinformation</h3>
-
-        <p>
-            <label for="First- and lastname">Full name</label><br>
-            <input type="text" id="First- and lastname" name="ln" required="required" placeholder="First- and lastname">
-        </p>
-        <p>
-            <label for="email">E-mail</label><br>
-            <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-        </p>
-        <p>
-            <label for="Street name">Street</label><br>
-            <input type="text" id="Street name" name="sn" placeholder="Street name">
-        </p>
-        <p>
-            <label for="House number">House</label><br>
-            <input type="number" id="House number" name="hn" placeholder="House number">
-        </p>
-
-        <p>
-            <label for="Payment">Payment</label><be>
-            <select id="recipient" name="rcp">
-                <option>Credit card</option>
-                <option>Swish</option>
-                <option>Invoice</option>
-                <option>Klarna</option>
-            </select>
-        </p>
-
-            <label for="gender">Gender</label> <br> 
-            <input type="radio"  id="male" name="gender" value="male" checked> 
-            <label for="male">Male</label> <br>
-            <input type="radio"  id="female" name="gender" value="female">
-            <label for="female">Female</label> <br>
-            <input type="radio" id="non-binary" name="gender" value="non-binary"> 
-            <label for="non-binary">Non-binary</label>  <br>
-            <br>
-
-        <button type="submit">
-            <img src= "https://static.vecteezy.com/system/resources/previews/001/193/924/non_2x/car-png.png"
-            width="30"
-            height="20" >
-                Place my order!
-        </button>
-    </section>
-           
-        <hr>
-        <footer> © 2022 Pettersson's Burgers AB</footer>
-    </body>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
