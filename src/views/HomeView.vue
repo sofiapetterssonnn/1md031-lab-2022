@@ -103,7 +103,7 @@ const socket = io();
 /*function MenuItem(name, img, kCal, lactose, gluten) {
   this.name = name;
   this.url = img;
-  this.calories = kCal;
+  this.kCal = kCal;
   this.gluten = gluten;
   this.lactose = lactose;
   

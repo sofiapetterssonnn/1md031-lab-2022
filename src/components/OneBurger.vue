@@ -7,7 +7,7 @@
 
  
   <ul>
-    <li> {{ burger.calories}} kCal </li>
+    <li> {{ burger.kCal}} kCal </li>
     <li v-if="burger.lactose"> Contains <span class="ingredient"> lactose </span></li>
     <li v-if="burger.gluten"> Contains <span class="ingredient"> gluten </span></li>
   </ul>
