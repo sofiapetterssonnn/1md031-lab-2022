@@ -1,0 +1,26 @@
+
+[
+    {
+      "name": "Soffis Burger",
+      "kCal": 650,
+      "lactose": true,
+      "gluten": true,
+      "url": "https://cdn.cnn.com/cnnnext/dam/assets/220428140436-04-classic-american-hamburgers-full-169.jpg"
+    },
+
+    {
+      "name": "Beast Burger",
+      "kCal": 700,
+      "lactose": true,
+      "gluten": true,
+      "url": "https://www.tastingtable.com/img/gallery/heres-how-hamburgers-got-their-name/intro-1653066580.jpg"
+    },
+ 
+    {
+      "name": "Cheese Burger",
+      "kCal": 650,
+      "lactose": true,
+      "gluten": true,
+      "url": "https://www.tastingtable.com/img/gallery/steakburger-vs-hamburger-whats-the-biggest-difference/l-intro-1657643502.jpg"
+    }
+]
